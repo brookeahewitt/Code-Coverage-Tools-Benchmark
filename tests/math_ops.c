@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <math.h>
+#include <string.h>
+#include <klee/klee.h>
+
+void math_test(int a, int b, double x) {
+    // Integer operations
+    int add = a + b;
+    int mult = a * b;
+    printf("Integer Addition: %d + %d = %d\n", a, b, add);
+    printf("Integer Multiplication: %d * %d = %d\n", a, b, mult);
+    
+    if (b != 0) {
+        printf("Integer Division: %d / %d = %d\n", a, b, a / b);
+    } else {
+        printf("Integer Division: Division by zero skipped\n");
+    }
+
+    // Floating point operations
+    float add1 = x + x;
+    float mult1 = x * x;
+    printf("Floating-Point Addition: %f + %f = %f\n", x, x, add1);
+    printf("Floating-Point Multiplication: %f * %f = %f\n", x, x, mult1);
+    printf("Sine(%f) = %f\n", x, sin(x));
+}
+
+int main(int argc, char** argv) {
+    int a, b;
+    double x;
+
+    // FOR KLEE
+    if (argc > 1 && strcmp(argv[1], "-k") == 0) {
+        klee_make_symbolic(&a, sizeof(a), "a");
+        klee_make_symbolic(&b, sizeof(b), "b");
+        klee_make_symbolic(&x, sizeof(x), "x");
+    } else if (argc == 4) { // FOR AFL
+        a = atoi(argv[1]);
+        b = atoi(argv[2]);
+        x = atof(argv[3]);
+    } else {
+        fprintf(stderr, "Usage: %s <int a> <int b> <double x>\n", argv[0]);
+        return 1;
+    }    
+
+    math_test(a, b, x);
+    return 0;
+}
