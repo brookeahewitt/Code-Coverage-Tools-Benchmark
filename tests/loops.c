@@ -5,12 +5,8 @@
 #include <string.h>
 #include <klee/klee.h>
 
-int fibonacci_sequence(int x) {
-    if (x <= 1) {
-        return x;
-    } else {
-        return fibonacci_sequence(x - 1) + fibonacci_sequence(x - 2);
-    }
+int loops(int x) {
+    // Find sum
 }
 
 int main(int argc, char** argv) {
@@ -21,14 +17,11 @@ int main(int argc, char** argv) {
         klee_make_symbolic(&x, sizeof(x), "x");
     } else if (argc == 2) { // FOR AFL
         x = atoi(argv[1]);
-        if (x < 0) {
-            x *= -1;
-        }
     } else {
         fprintf(stderr, "Usage: %s <int x>\n", argv[0]);
         return 1;
     }    
 
-    printf("Integer %d : Fibonacci %d\n", x, fibonacci_sequence(x));
+    loops(x);
     return 0;
 }
