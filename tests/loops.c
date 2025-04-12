@@ -28,6 +28,7 @@ int main(int argc, char** argv) {
     // FOR KLEE
     if (argc > 1 && strcmp(argv[1], "-k") == 0) {
         klee_make_symbolic(&x, sizeof(x), "x");
+        klee_assume(x >= 0);
     } else if (argc == 2) { // FOR AFL
         x = atoi(argv[1]);
         if (x < 0) {
