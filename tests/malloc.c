@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <string.h>
-#include <klee/klee.h>
+// #include <klee/klee.h>
 
 int malloc_mem(int numElements) { 
     int *ptr;

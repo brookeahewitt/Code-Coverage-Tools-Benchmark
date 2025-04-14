@@ -4,7 +4,7 @@
 #include <math.h>
 #include <string.h>
 #include <signal.h>
-#include <klee/klee.h>
+// #include <klee/klee.h>
 
 void handle_signal(int signal) {
     if (signal == SIGFPE) {

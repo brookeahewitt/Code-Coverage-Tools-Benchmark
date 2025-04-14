@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <string.h>
-#include <klee/klee.h>
+// #include <klee/klee.h>
 
 void math_test(int a, int b, double x) {
     // Integer operations
