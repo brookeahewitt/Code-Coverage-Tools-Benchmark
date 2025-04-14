@@ -69,8 +69,10 @@ int main(int argc, char** argv) {
     // klee_make_symbolic(&x, sizeof(x), "x");
     // klee_make_symbolic(&y, sizeof(y), "y");
 
-    x = atoi(argv[1]);
-    y = atoi(argv[2]);  
+    FILE *fp = fopen(argv[1], "r");
+
+    fscanf(fp, "%d %d", &x, &y);
+    fclose(fp); 
 
     calendar(x, y);
     return 0;

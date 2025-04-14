@@ -35,9 +35,10 @@ int main(int argc, char** argv) {
     // klee_make_symbolic(&b, sizeof(b), "b");
     // klee_make_symbolic(&x, sizeof(x), "x");
         
-    a = atoi(argv[1]);
-    b = atoi(argv[2]);
-    x = atof(argv[3]);   
+    FILE *fp = fopen(argv[1], "r");
+
+    fscanf(fp, "%d %d %f", &a, &b, &x);
+    fclose(fp);   
 
     math_test(a, b, x);
     return 0;

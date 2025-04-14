@@ -29,7 +29,11 @@ int main(int argc, char** argv) {
     // klee_make_symbolic(&x, sizeof(x), "x");
     // klee_assume(x >= 0);
     
-    x = atoi(argv[1]);
+    FILE *fp = fopen(argv[1], "r");
+
+    fscanf(fp, "%d", &x);
+    fclose(fp); 
+    
     if (x < 0) {
         x *= -1;
     }  

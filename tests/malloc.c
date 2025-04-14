@@ -25,7 +25,10 @@ int main(int argc, char** argv) {
     // FOR KLEE
     // klee_make_symbolic(&x, sizeof(x), "x");
     
-    x = atoi(argv[1]);  
+    FILE *fp = fopen(argv[1], "r");
+
+    fscanf(fp, "%d", &x);
+    fclose(fp); 
 
     int malloc_success = malloc_mem(x);
     if (malloc_success) {
