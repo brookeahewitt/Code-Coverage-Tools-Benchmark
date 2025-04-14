@@ -26,18 +26,13 @@ int main(int argc, char** argv) {
     int x;
 
     // FOR KLEE
-    if (argc > 1 && strcmp(argv[1], "-k") == 0) {
-        klee_make_symbolic(&x, sizeof(x), "x");
-        klee_assume(x >= 0);
-    } else if (argc == 2) { // FOR AFL
-        x = atoi(argv[1]);
-        if (x < 0) {
-            x *= -1;
-        }
-    } else {
-        fprintf(stderr, "Usage: %s <int x>\n", argv[0]);
-        return 1;
-    }    
+    // klee_make_symbolic(&x, sizeof(x), "x");
+    // klee_assume(x >= 0);
+    
+    x = atoi(argv[1]);
+    if (x < 0) {
+        x *= -1;
+    }  
 
     printf("Sum of Squares from 0 to %d: %d", x, loops(x));
     return 0;

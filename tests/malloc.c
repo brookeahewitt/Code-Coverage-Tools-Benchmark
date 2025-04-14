@@ -23,14 +23,9 @@ int main(int argc, char** argv) {
     int x;
 
     // FOR KLEE
-    if (argc > 1 && strcmp(argv[1], "-k") == 0) {
-        klee_make_symbolic(&x, sizeof(x), "x");
-    } else if (argc == 2) { // FOR AFL
-        x = atoi(argv[1]);
-    } else {
-        fprintf(stderr, "Usage: %s <int x>\n", argv[0]);
-        return 1;
-    }    
+    // klee_make_symbolic(&x, sizeof(x), "x");
+    
+    x = atoi(argv[1]);  
 
     int malloc_success = malloc_mem(x);
     if (malloc_success) {

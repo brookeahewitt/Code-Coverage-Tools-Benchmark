@@ -31,18 +31,13 @@ int main(int argc, char** argv) {
     double x;
 
     // FOR KLEE
-    if (argc > 1 && strcmp(argv[1], "-k") == 0) {
-        klee_make_symbolic(&a, sizeof(a), "a");
-        klee_make_symbolic(&b, sizeof(b), "b");
-        klee_make_symbolic(&x, sizeof(x), "x");
-    } else if (argc == 4) { // FOR AFL
-        a = atoi(argv[1]);
-        b = atoi(argv[2]);
-        x = atof(argv[3]);
-    } else {
-        fprintf(stderr, "Usage: %s <int a> <int b> <double x>\n", argv[0]);
-        return 1;
-    }    
+    // klee_make_symbolic(&a, sizeof(a), "a");
+    // klee_make_symbolic(&b, sizeof(b), "b");
+    // klee_make_symbolic(&x, sizeof(x), "x");
+        
+    a = atoi(argv[1]);
+    b = atoi(argv[2]);
+    x = atof(argv[3]);   
 
     math_test(a, b, x);
     return 0;

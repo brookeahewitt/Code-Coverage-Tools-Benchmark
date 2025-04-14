@@ -35,16 +35,11 @@ int main(int argc, char** argv) {
     int x, y;
 
     // FOR KLEE
-    if (argc > 1 && strcmp(argv[1], "-k") == 0) {
-        klee_make_symbolic(&x, sizeof(x), "x");
-        klee_make_symbolic(&y, sizeof(y), "y");
-    } else if (argc == 3) { // FOR AFL
-        x = atoi(argv[1]);
-        y = atoi(argv[2]);
-    } else {
-        fprintf(stderr, "Usage: %s <int x> <int y>\n", argv[0]);
-        return 1;
-    }    
+    // klee_make_symbolic(&x, sizeof(x), "x");
+    // klee_make_symbolic(&y, sizeof(y), "y");
+        
+    x = atoi(argv[1]);
+    y = atoi(argv[2]);  
 
     int div = divideNumbers(x, y);
     printf("%d/%d = %d", x, y, div);

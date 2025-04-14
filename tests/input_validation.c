@@ -32,16 +32,12 @@ void validate(int idx, int divisor) {
 int main(int argc, char** argv) {
     int x, y;
 
-    if (argc > 1 && strcmp(argv[1], "-k") == 0) {
-        klee_make_symbolic(&x, sizeof(x), "x");
-        klee_make_symbolic(&y, sizeof(y), "y");
-    } else if (argc == 3) {
-        x = atoi(argv[1]);
-        y = atoi(argv[2]);
-    } else {
-        fprintf(stderr, "Usage: %s <int x> <int y> or %s -k\n", argv[0], argv[0]);
-        return 1;
-    }
+    // KLEE
+    // klee_make_symbolic(&x, sizeof(x), "x");
+    // klee_make_symbolic(&y, sizeof(y), "y");
+        
+    x = atoi(argv[1]);
+    y = atoi(argv[2]);
 
     validate(x, y);
     return 0;
