@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set paths
-TEST_DIR=~/Code-Coverage-Tools-Benchmark/tests
+TEST_DIR=~/Code-Coverage-Tools-Benchmark/klee_tests
 BUILD_DIR=~/Code-Coverage-Tools-Benchmark/klee_build
 INCLUDE_DIR=~/klee/include
 
