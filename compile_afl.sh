@@ -16,7 +16,7 @@ for src_file in "$TEST_DIR"/*.c; do
     output_file="${BUILD_DIR}/${base_name}_afl"
 
     # Compile with coverage flags and output the binary
-    gcc -fprofile-arcs -ftest-coverage -O0 -o "$output_file" "$src_file" -lm
+    ~/AFLplusplus/afl-gcc-fast -fprofile-arcs -ftest-coverage -O0 -o "$output_file" "$src_file" -lm
     
     echo "Compiled $src_file -> $output_file"
 done

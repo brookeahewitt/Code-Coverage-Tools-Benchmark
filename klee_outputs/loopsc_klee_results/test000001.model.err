@@ -1,11 +1,11 @@
 Error: concretized symbolic size
 File: klee_tests/loops.c
 Line: 9
-assembly.ll line: 23
+assembly.ll line: 24
 State: 3
 Stack: 
-	#000000023 in loops(symbolic) at klee_tests/loops.c:9
-	#100000109 in main(1, 140033322192896) at klee_tests/loops.c:32
+	#000000024 in loops(symbolic) at klee_tests/loops.c:9
+	#100000124 in main(1, 139752073936896) at klee_tests/loops.c:36
 Info: 
   size expr: (Mul w64 4
                        (SExt w64 (Add w32 1
