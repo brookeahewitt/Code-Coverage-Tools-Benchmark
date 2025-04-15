@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
         
     FILE *fp = fopen(argv[1], "r");
 
-    fscanf(fp, "%d %d %f", &a, &b, &x);
+    fscanf(fp, "%d %d %lf", &a, &b, &x);
     fclose(fp);   
 
     math_test(a, b, x);
