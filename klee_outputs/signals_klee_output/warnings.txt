@@ -1,4 +1,4 @@
 KLEE: WARNING: undefined reference to function: printf
 KLEE: WARNING: undefined reference to function: signal
-KLEE: WARNING ONCE: calling external: signal(8, 139916472479744) at klee_tests/signals.c:19 9
-KLEE: WARNING ONCE: calling external: printf(139918619963392) at klee_tests/signals.c:23 5
+KLEE: WARNING ONCE: calling external: signal(8, 140550482731008) at klee_tests/signals.c:19 9
+KLEE: WARNING ONCE: calling external: printf(140552630214656) at klee_tests/signals.c:23 5

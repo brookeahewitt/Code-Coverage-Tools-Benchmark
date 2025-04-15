@@ -5,7 +5,7 @@ assembly.ll line: 21
 State: 3
 Stack: 
 	#000000021 in malloc_mem(symbolic) at klee_tests/malloc.c:11
-	#100000070 in main(1, 140645081776128) at klee_tests/malloc.c:28
+	#100000070 in main(1, 139870243115008) at klee_tests/malloc.c:28
 Info: 
   size expr: (Mul w64 4
                        (SExt w64 (ReadLSB w32 0 x)))

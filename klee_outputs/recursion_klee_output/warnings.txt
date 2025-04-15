@@ -1,4 +1,4 @@
 KLEE: WARNING: undefined reference to function: printf
-KLEE: WARNING ONCE: calling external: printf(140460818448384, (ReadLSB w32 0 x), (Add w32 4294967293
+KLEE: WARNING ONCE: calling external: printf(140343800041472, (ReadLSB w32 0 x), (Add w32 4294967293
           (Add w32 N0:(ReadLSB w32 0 x)
                    N0))) at klee_tests/recursion.c:24 5

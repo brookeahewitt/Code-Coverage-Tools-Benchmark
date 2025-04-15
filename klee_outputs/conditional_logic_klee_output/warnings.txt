@@ -1,2 +1,2 @@
 KLEE: WARNING: undefined reference to function: printf
-KLEE: WARNING ONCE: calling external: printf(139710320328704) at klee_tests/conditional_logic.c:15 13
+KLEE: WARNING ONCE: calling external: printf(139892011397120) at klee_tests/conditional_logic.c:15 13

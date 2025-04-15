@@ -1,5 +1,5 @@
 KLEE: WARNING: undefined reference to function: printf
 KLEE: WARNING: undefined reference to function: pthread_create
 KLEE: WARNING: undefined reference to function: pthread_join
-KLEE: WARNING ONCE: calling external: pthread_create(138555328884736, 0, 139775636467712, 138551033917440) at klee_tests/threads.c:32 48
-KLEE: WARNING ONCE: calling external: pthread_join(138536001496768, 0) at klee_tests/threads.c:35 18
+KLEE: WARNING ONCE: calling external: pthread_create(138977762254848, 0, 140198069837824, 138973467287552) at klee_tests/threads.c:32 48
+KLEE: WARNING ONCE: calling external: pthread_join(138958434866880, 0) at klee_tests/threads.c:35 18

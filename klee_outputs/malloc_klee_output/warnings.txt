@@ -1,3 +1,3 @@
 KLEE: WARNING: undefined reference to function: printf
 KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
-KLEE: WARNING ONCE: calling external: printf(140632196874240, (ReadLSB w32 0 x)) at klee_tests/malloc.c:31 5
+KLEE: WARNING ONCE: calling external: printf(139857358213120, (ReadLSB w32 0 x)) at klee_tests/malloc.c:31 5
