@@ -1,0 +1,7 @@
+Error: external call with symbolic argument: printf
+File: klee_tests/malloc.c
+Line: 32
+assembly.ll line: 83
+State: 2
+Stack: 
+	#000000083 in main(1, 140645081776128) at klee_tests/malloc.c:32

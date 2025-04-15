@@ -1,0 +1,9 @@
+Error: divide by zero
+File: klee_tests/signals.c
+Line: 19
+assembly.ll line: 58
+State: 1
+Stack: 
+	#000000142 in klee_div_zero_check(symbolic) at runtime/Intrinsic/klee_div_zero_check.c:14
+	#100000058 in divideNumbers(symbolic, symbolic) at klee_tests/signals.c:19
+	#200000121 in main(1, 139932578607104) at klee_tests/signals.c:41

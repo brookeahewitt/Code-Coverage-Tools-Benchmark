@@ -1,0 +1,8 @@
+Error: external call with symbolic argument: printf
+File: klee_tests/input_validation.c
+Line: 12
+assembly.ll line: 44
+State: 1
+Stack: 
+	#000000044 in validate(symbolic, symbolic) at klee_tests/input_validation.c:12
+	#100000126 in main(1, 140340450377728) at klee_tests/input_validation.c:39

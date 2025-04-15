@@ -1,0 +1,8 @@
+Error: external call with symbolic argument: printf
+File: klee_tests/math_ops.c
+Line: 12
+assembly.ll line: 48
+State: 1
+Stack: 
+	#000000048 in math_test(symbolic, symbolic, symbolic) at klee_tests/math_ops.c:12
+	#100000135 in main(1, 139810737086464) at klee_tests/math_ops.c:38

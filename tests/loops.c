@@ -8,6 +8,10 @@
 int loops(int x) {
     int *squares = malloc(sizeof(int) * (x + 1));
 
+    if (squares == NULL) {
+        return -1;
+    }
+
     for (int i = 0; i <= x; i++) {
         squares[i] = i*i;
     }

@@ -1,0 +1,14 @@
+Error: concretized symbolic size
+File: klee_tests/loops.c
+Line: 9
+assembly.ll line: 23
+State: 3
+Stack: 
+	#000000023 in loops(symbolic) at klee_tests/loops.c:9
+	#100000109 in main(1, 140033322192896) at klee_tests/loops.c:32
+Info: 
+  size expr: (Mul w64 4
+                       (SExt w64 (Add w32 1
+                                          (ReadLSB w32 0 x))))
+  concretization : 4
+  unbound example: 4294967296

@@ -1,0 +1,4 @@
+/home/brooke/klee/build/bin/klee --only-output-states-covering-new --max-time=600s --output-dir=/home/brooke/Code-Coverage-Tools-Benchmark/klee_outputs/threads_klee_output /home/brooke/Code-Coverage-Tools-Benchmark/klee_build/threads_klee.bc
+PID: 4028971
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2025-04-15 15:08:59

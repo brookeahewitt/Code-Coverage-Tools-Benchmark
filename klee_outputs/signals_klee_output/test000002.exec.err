@@ -1,0 +1,7 @@
+Error: external call with symbolic argument: printf
+File: klee_tests/signals.c
+Line: 42
+assembly.ll line: 126
+State: 2
+Stack: 
+	#000000126 in main(1, 139932578607104) at klee_tests/signals.c:42

@@ -1,0 +1,79 @@
+version: 1
+creator: klee
+pid: 4028351
+cmd: /home/brooke/Code-Coverage-Tools-Benchmark/klee_build/malloc_klee.bc
+
+
+positions: instr line
+event: Icov : CoveredInstructions
+event: Forks : Forks
+event: Ireal : InstructionRealTimes
+event: Itime : InstructionTimes
+event: I : Instructions
+event: UCdist : MinDistToUncovered
+event: Rtime : ResolveTime
+event: States : States
+event: Iuncov : UncoveredInstructions
+event: Q : Queries
+event: Qiv : QueriesInvalid
+event: Qv : QueriesValid
+event: Qtime : QueryTime
+events: Icov Forks Ireal Itime I UCdist Rtime States Iuncov Q Qiv Qv Qtime 
+ob=assembly.ll
+fl=klee_tests/malloc.c
+fn=malloc_mem
+12 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+13 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+14 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+15 8 1 0 0 0 1 0 0 0 0 1 0 0 0 
+16 8 1 0 0 0 1 0 0 0 0 0 0 0 0 
+17 9 1 0 0 0 1 0 0 0 0 0 0 0 0 
+18 11 1 0 0 0 1 0 0 0 0 1 0 0 0 
+19 11 1 0 0 0 1 0 0 0 0 0 0 0 0 
+20 11 1 0 0 0 1 0 0 0 0 0 0 0 0 
+21 11 1 2 0 0 1 0 0 0 0 8 4 0 44980 
+22 11 1 0 0 0 2 0 0 0 0 0 0 0 0 
+23 11 1 0 0 0 2 0 0 0 0 2 0 0 0 
+24 13 1 0 0 0 2 0 0 0 0 2 0 0 0 
+25 13 1 0 0 0 2 0 0 0 0 0 0 0 0 
+26 13 1 0 0 0 2 0 0 0 0 2 0 0 0 
+29 14 1 0 0 0 1 0 0 0 0 1 0 0 0 
+30 14 1 0 0 0 1 0 0 0 0 0 0 0 0 
+33 17 1 0 0 0 1 0 0 0 0 1 0 0 0 
+34 17 1 0 0 0 1 0 0 0 0 0 0 0 0 
+35 17 1 0 0 0 1 0 0 0 0 2 0 0 0 
+36 19 1 0 0 0 1 0 0 0 0 1 0 0 0 
+37 19 1 0 0 0 1 0 0 0 0 0 0 0 0 
+40 20 1 0 0 0 2 0 0 0 0 2 0 0 0 
+41 20 1 0 0 0 2 0 0 0 0 0 0 0 0 
+fn=main
+55 22 1 0 0 0 1 51 0 0 0 0 0 0 0 
+56 22 1 0 0 0 1 50 0 0 0 0 0 0 0 
+57 22 1 0 0 0 1 49 0 0 0 0 0 0 0 
+58 22 1 0 0 0 1 48 0 0 0 0 0 0 0 
+59 22 1 0 0 0 1 47 0 0 0 0 0 0 0 
+60 22 1 0 0 0 1 46 0 0 0 1 0 0 0 
+61 22 1 0 0 0 1 45 0 0 0 1 0 0 0 
+62 22 1 0 0 0 1 44 0 0 0 0 0 0 0 
+63 22 1 0 0 0 1 42 0 0 0 1 0 0 0 
+64 22 1 0 0 0 1 41 0 0 0 0 0 0 0 
+65 23 1 0 0 0 1 39 0 0 0 0 0 0 0 
+66 26 1 0 0 0 1 37 0 0 0 0 0 0 0 
+67 26 1 0 0 0 1 36 0 0 0 2 0 0 0 
+68 28 1 0 0 0 1 34 0 0 0 0 0 0 0 
+69 28 1 0 0 0 1 32 0 0 0 1 0 0 0 
+70 28 1 0 0 0 1 31 0 0 0 0 0 0 0 
+cfn=malloc_mem
+calls=1 10 8
+70 28 24 2 0 0 31 0 0 0 0 23 4 0 44980 
+71 28 1 0 0 0 2 8 0 0 0 2 0 0 0 
+72 29 1 0 0 0 2 7 0 0 0 2 0 0 0 
+73 29 1 0 0 0 2 6 0 0 0 0 0 0 0 
+74 29 1 0 0 0 2 5 0 0 0 2 0 0 0 
+77 30 1 0 0 0 1 0 0 0 0 1 0 0 0 
+78 30 1 0 0 0 1 0 0 0 0 2 0 1 8600 
+79 31 1 0 0 0 1 0 0 0 0 0 0 0 0 
+82 32 1 0 0 0 1 4 0 0 0 1 0 0 0 
+83 32 1 0 0 0 1 3 0 0 0 3 1 0 11805 
+84 22 0 0 0 0 0 1 0 0 1 0 0 0 0 
+87 34 1 0 0 0 1 0 0 0 0 1 0 0 0 

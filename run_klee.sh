@@ -18,7 +18,7 @@ for bc_file in "$INPUT_DIR"/*.bc; do
 
     echo "Running KLEE on $bc_file (10-minute timeout)..."
 
-    # Run KLEE with a 10-minute limit
+    # Run KLEE with correct argument order
     "$KLEE_BIN" \
         --only-output-states-covering-new \
         --max-time=600s \
