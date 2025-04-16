@@ -19,6 +19,7 @@ declare -A INPUT_MAP=(
     [signals_afl]="$INPUT_BASE/two_inputs"
     [threads_afl]="$INPUT_BASE/two_inputs"
     [math_ops_afl]="$INPUT_BASE/three_inputs"
+    [fuzzgoat_afl]="$INPUT_BASE/seed"
 )
 
 # Create output directory if it doesn't exist
