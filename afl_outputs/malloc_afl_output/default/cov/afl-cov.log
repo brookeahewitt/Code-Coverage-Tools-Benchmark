@@ -1,0 +1,76 @@
+
+*** Imported 2 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 2), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpoBg3T0 /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 7.0% (13 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 7.0% (13 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+    Coverage diff (init) id:000000,time:0,execs:0,orig:testcase1
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+  New 'function' coverage: main()
+  New 'function' coverage: malloc_mem()
+  New 'line' coverage: 11
+  New 'line' coverage: 13
+  New 'line' coverage: 17
+  New 'line' coverage: 19
+  New 'line' coverage: 22
+  New 'line' coverage: 28
+  New 'line' coverage: 30
+  New 'line' coverage: 31
+  New 'line' coverage: 33
+  New 'line' coverage: 34
+  New 'line' coverage: 35
+  New 'line' coverage: 39
+  New 'line' coverage: 8
+
+
+
+++++++ BEGIN - first exec output for CMD: /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/malloc_afl /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//queue/id:000000,time:0,execs:0,orig:testcase1
+    Malloc was successful for x = 1
+++++++ END
+
+[+] AFL test case: id:000001,src:000000,time:14,execs:34,op:havoc,rep:1,+cov (1 / 2), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpvkIO4A /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 8.1% (15 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 8.1% (15 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+    Coverage diff id:000000,time:0,execs:0,orig:testcase1 id:000001,src:000000,time:14,execs:34,op:havoc,rep:1,+cov
+diff id:000000,time:0,execs:0,orig:testcase1 -> id:000001,src:000000,time:14,execs:34,op:havoc,rep:1,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+  New 'line' coverage: 14
+  New 'line' coverage: 37
+
+[+] Processed 2 / 2 test cases.
+
+[+] Final zero coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/zero-cov
+[+] Final positive coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/pos-cov
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp789h6u /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 8.1% (15 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 8.1% (15 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] Final lcov web report: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/malloc_afl_output/default//cov/web/index.html

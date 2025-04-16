@@ -1,0 +1,14 @@
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/recursion.c
+  New 'function' coverage: fibonacci_sequence()
+  New 'function' coverage: main()
+  New 'line' coverage: 10
+  New 'line' coverage: 16
+  New 'line' coverage: 23
+  New 'line' coverage: 25
+  New 'line' coverage: 26
+  New 'line' coverage: 28
+  New 'line' coverage: 32
+  New 'line' coverage: 33
+  New 'line' coverage: 8
+  New 'line' coverage: 9

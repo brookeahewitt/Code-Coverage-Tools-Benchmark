@@ -1,0 +1,17 @@
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+  New 'function' coverage: main()
+  New 'function' coverage: malloc_mem()
+  New 'line' coverage: 11
+  New 'line' coverage: 13
+  New 'line' coverage: 17
+  New 'line' coverage: 19
+  New 'line' coverage: 22
+  New 'line' coverage: 28
+  New 'line' coverage: 30
+  New 'line' coverage: 31
+  New 'line' coverage: 33
+  New 'line' coverage: 34
+  New 'line' coverage: 35
+  New 'line' coverage: 39
+  New 'line' coverage: 8

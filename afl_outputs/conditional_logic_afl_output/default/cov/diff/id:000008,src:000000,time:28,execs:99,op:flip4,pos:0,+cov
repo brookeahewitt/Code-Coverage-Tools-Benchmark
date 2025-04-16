@@ -1,0 +1,5 @@
+diff id:000007,src:000000,time:22,execs:77,op:flip2,pos:0,+cov -> id:000008,src:000000,time:28,execs:99,op:flip4,pos:0,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/conditional_logic.c
+  New 'line' coverage: 25
+  New 'line' coverage: 26
+  New 'line' coverage: 27

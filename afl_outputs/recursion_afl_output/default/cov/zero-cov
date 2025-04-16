@@ -1,0 +1,25 @@
+# All functions / lines in this file were never executed by any
+# AFL test case.
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/threads.c
+    function: main()
+    function: printNum()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+    function: main()
+    function: malloc_mem()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+    function: main()
+    function: math_test()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/recursion.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/conditional_logic.c
+    function: calendar()
+    function: main()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
+    function: divideNumbers()
+    function: handle_signal()
+    function: main()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/input_validation.c
+    function: main()
+    function: validate()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/loops.c
+    function: loops()
+    function: main()

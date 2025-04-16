@@ -2,7 +2,7 @@
 *** Imported 5 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//queue
 
 [+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 5), cycle: 0
-    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpmKKujf /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpDjHb7Q /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
 lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
 	(use "lcov --ignore-errors unused ..." to bypass this error)
 Removed 0 files
@@ -41,7 +41,7 @@ New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
 ++++++ END
 
 [+] AFL test case: id:000001,src:000000,time:3,execs:9,op:quick,pos:0,+cov (1 / 5), cycle: 0
-    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp9kgJ73 /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpIt64ku /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
 lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
 	(use "lcov --ignore-errors unused ..." to bypass this error)
 Removed 0 files
@@ -63,7 +63,7 @@ Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
   New 'line' coverage: 9
 
 [+] AFL test case: id:000002,src:000000,time:7,execs:18,op:quick,pos:2,+cov (2 / 5), cycle: 0
-    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp9vdq8c /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpnauUEt /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
 lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
 	(use "lcov --ignore-errors unused ..." to bypass this error)
 Removed 0 files
@@ -83,7 +83,7 @@ Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
   New 'line' coverage: 28
 
 [+] AFL test case: id:000003,src:000000,time:11,execs:31,op:flip1,pos:0,+cov (3 / 5), cycle: 0
-    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpYOJBMD /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpIqo0qj /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
 lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
 	(use "lcov --ignore-errors unused ..." to bypass this error)
 Removed 0 files
@@ -101,7 +101,7 @@ Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
   New 'line' coverage: 26
 
 [+] AFL test case: id:000004,src:000000,time:77,execs:245,op:havoc,rep:1,+cov (4 / 5), cycle: 0
-    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmplVcSjJ /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpRlCACK /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
 lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
 	(use "lcov --ignore-errors unused ..." to bypass this error)
 Removed 0 files
@@ -122,7 +122,7 @@ Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
 
 [+] Final zero coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/zero-cov
 [+] Final positive coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/pos-cov
-    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpdbnVCE /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmplKy2A6 /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/signals_afl_output/default//cov/lcov/trace.lcov_info_final
 lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
 	(use "lcov --ignore-errors unused ..." to bypass this error)
 Removed 0 files

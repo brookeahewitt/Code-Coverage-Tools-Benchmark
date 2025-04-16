@@ -1,0 +1,19 @@
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/input_validation.c
+  New 'function' coverage: main()
+  New 'function' coverage: validate()
+  New 'line' coverage: 11
+  New 'line' coverage: 12
+  New 'line' coverage: 17
+  New 'line' coverage: 18
+  New 'line' coverage: 23
+  New 'line' coverage: 27
+  New 'line' coverage: 30
+  New 'line' coverage: 32
+  New 'line' coverage: 39
+  New 'line' coverage: 41
+  New 'line' coverage: 42
+  New 'line' coverage: 44
+  New 'line' coverage: 45
+  New 'line' coverage: 8
+  New 'line' coverage: 9
