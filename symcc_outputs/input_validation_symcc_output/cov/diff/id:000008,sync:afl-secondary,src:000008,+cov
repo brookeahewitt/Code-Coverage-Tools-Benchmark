@@ -1,0 +1,3 @@
+diff id:000007,src:000000,time:178,execs:401,op:havoc,rep:2,+cov -> id:000008,sync:afl-secondary,src:000008,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/input_validation.c
+  New 'line' coverage: 28

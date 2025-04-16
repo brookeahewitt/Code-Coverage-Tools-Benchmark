@@ -1,0 +1,275 @@
+
+*** Imported 9 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/afl-master/queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp5xHifz /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 9.7% (18 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 9.7% (18 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+    Coverage diff (init) id:000000,time:0,execs:0,orig:testcase1
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/loops.c
+  New 'function' coverage: loops()
+  New 'function' coverage: main()
+  New 'line' coverage: 11
+  New 'line' coverage: 15
+  New 'line' coverage: 16
+  New 'line' coverage: 19
+  New 'line' coverage: 20
+  New 'line' coverage: 21
+  New 'line' coverage: 22
+  New 'line' coverage: 23
+  New 'line' coverage: 26
+  New 'line' coverage: 29
+  New 'line' coverage: 36
+  New 'line' coverage: 38
+  New 'line' coverage: 39
+  New 'line' coverage: 41
+  New 'line' coverage: 45
+  New 'line' coverage: 46
+  New 'line' coverage: 8
+  New 'line' coverage: 9
+
+
+
+++++++ BEGIN - first exec output for CMD: /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/loops_afl /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/afl-master/queue/id:000000,time:0,execs:0,orig:testcase1
+    Sum of Squares from 0 to 1: 1
+++++++ END
+
+[+] AFL test case: id:000001,src:000000,time:9,execs:17,op:havoc,rep:4 (1 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpbdaOyW /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 9.7% (18 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 9.7% (18 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000002,src:000000,time:20,execs:32,op:havoc,rep:1 (2 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp9rDdhM /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 9.7% (18 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 9.7% (18 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000003,src:000000,time:33,execs:57,op:havoc,rep:4 (3 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpHM_CVZ /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 9.7% (18 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 9.7% (18 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000004,src:000000,time:53,execs:101,op:havoc,rep:4 (4 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpiDkweL /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 9.7% (18 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 9.7% (18 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000005,src:000000,time:61,execs:119,op:havoc,rep:2 (5 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpoAnMXx /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 9.7% (18 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 9.7% (18 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000006,src:000000,time:1858,execs:145,op:havoc,rep:3,+cov (6 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp0cAGIu /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+    Coverage diff id:000005,src:000000,time:61,execs:119,op:havoc,rep:2 id:000006,src:000000,time:1858,execs:145,op:havoc,rep:3,+cov
+diff id:000005,src:000000,time:61,execs:119,op:havoc,rep:2 -> id:000006,src:000000,time:1858,execs:145,op:havoc,rep:3,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/loops.c
+  New 'line' coverage: 42
+
+[+] AFL test case: id:000007,src:000000,time:1863,execs:155,op:havoc,rep:4 (7 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmplw85kQ /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000008,src:000000,time:1966,execs:219,op:havoc,rep:3 (8 / 9), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpS7_X7s /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+*** Imported 9 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/afl-secondary/queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp00jHxx /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000001,src:000000,time:4,execs:15,op:havoc,rep:9 (1 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmptkE6EP /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000002,src:000000,time:7,execs:23,op:havoc,rep:4 (2 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpK8zI0v /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000003,src:000000,time:34,execs:74,op:havoc,rep:8 (3 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpYoHH1p /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000004,src:000000,time:41,execs:87,op:havoc,rep:1 (4 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpgLbH2C /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000005,src:000000,time:57,execs:130,op:havoc,rep:7 (5 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmppmiYWY /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000006,src:000000,time:18446744073709550938,execs:317,op:havoc,rep:8 (6 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpATsVDF /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000007,src:000000,time:18446744073709551011,execs:398,op:havoc,rep:9 (7 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpS6bN6o /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000008,src:000000,time:18446744073709551163,execs:593,op:havoc,rep:3,+cov (8 / 18), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp4nriy4 /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] Processed 18 / 18 test cases.
+
+[+] Final zero coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/zero-cov
+[+] Final positive coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/pos-cov
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpo0M9xI /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 10.3% (19 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 10.3% (19 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] Final lcov web report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/loops_symcc_output/cov/web/index.html

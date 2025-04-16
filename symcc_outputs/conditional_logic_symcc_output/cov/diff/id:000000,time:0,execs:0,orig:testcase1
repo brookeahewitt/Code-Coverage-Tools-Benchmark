@@ -1,0 +1,18 @@
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/conditional_logic.c
+  New 'function' coverage: calendar()
+  New 'function' coverage: main()
+  New 'line' coverage: 10
+  New 'line' coverage: 11
+  New 'line' coverage: 12
+  New 'line' coverage: 36
+  New 'line' coverage: 37
+  New 'line' coverage: 63
+  New 'line' coverage: 65
+  New 'line' coverage: 72
+  New 'line' coverage: 74
+  New 'line' coverage: 75
+  New 'line' coverage: 77
+  New 'line' coverage: 78
+  New 'line' coverage: 8
+  New 'line' coverage: 9

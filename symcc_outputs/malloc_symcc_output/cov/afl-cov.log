@@ -1,0 +1,103 @@
+
+*** Imported 2 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/afl-master/queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 2), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpBh3KPc /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 7.0% (13 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 7.0% (13 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+    Coverage diff (init) id:000000,time:0,execs:0,orig:testcase1
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+  New 'function' coverage: main()
+  New 'function' coverage: malloc_mem()
+  New 'line' coverage: 11
+  New 'line' coverage: 13
+  New 'line' coverage: 17
+  New 'line' coverage: 19
+  New 'line' coverage: 22
+  New 'line' coverage: 28
+  New 'line' coverage: 30
+  New 'line' coverage: 31
+  New 'line' coverage: 33
+  New 'line' coverage: 34
+  New 'line' coverage: 35
+  New 'line' coverage: 39
+  New 'line' coverage: 8
+
+
+
+++++++ BEGIN - first exec output for CMD: /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/malloc_afl /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/afl-master/queue/id:000000,time:0,execs:0,orig:testcase1
+    Malloc was successful for x = 1
+++++++ END
+
+[+] AFL test case: id:000001,src:000000,time:47,execs:92,op:havoc,rep:6,+cov (1 / 2), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpJWj5OV /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 8.1% (15 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 8.1% (15 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+
+    Coverage diff id:000000,time:0,execs:0,orig:testcase1 id:000001,src:000000,time:47,execs:92,op:havoc,rep:6,+cov
+diff id:000000,time:0,execs:0,orig:testcase1 -> id:000001,src:000000,time:47,execs:92,op:havoc,rep:6,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+  New 'line' coverage: 14
+  New 'line' coverage: 37
+
+
+*** Imported 2 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/afl-secondary/queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 4), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmp1iUI3J /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 8.1% (15 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 8.1% (15 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] AFL test case: id:000001,sync:afl-master,src:000001,+cov (1 / 4), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpuHTbMQ /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 8.1% (15 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 8.1% (15 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] Processed 4 / 4 test cases.
+
+[+] Final zero coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/zero-cov
+[+] Final positive coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/pos-cov
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpmSZaZ8 /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 8.1% (15 of 185 lines)
+  functions..: 11.8% (2 of 17 functions)
+  branches...: no data found
+    lines......: 8.1% (15 of 185 lines)
+    functions..: 11.8% (2 of 17 functions)
+[+] Final lcov web report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/malloc_symcc_output/cov/web/index.html

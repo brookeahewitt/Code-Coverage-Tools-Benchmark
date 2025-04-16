@@ -1,0 +1,3 @@
+afl_cov_pid     : 1539118
+afl_cov_version : 0.6.2
+command_line    : /home/brooke/afl-cov/afl-cov -d /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/conditional_logic_symcc_output --coverage-cmd=/home/brooke/Code-Coverage-Tools-Benchmark/afl_build/conditional_logic_afl AFL_FILE --code-dir /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/ --lcov-path /usr/bin/lcov --genhtml-path /usr/bin/genhtml --overwrite

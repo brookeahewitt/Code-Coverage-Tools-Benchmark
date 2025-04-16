@@ -1,0 +1,3 @@
+diff id:000024,src:000000,time:519,execs:1600,op:havoc,rep:5,+cov -> id:000025,src:000000,time:1065,execs:3399,op:havoc,rep:7,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/conditional_logic.c
+  New 'line' coverage: 55
