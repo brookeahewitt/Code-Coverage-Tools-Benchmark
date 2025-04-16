@@ -1,0 +1,7 @@
+diff id:000000,time:0,execs:0,orig:testcase1 -> id:000001,src:000000,time:3,execs:9,op:quick,pos:0,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
+  New 'function' coverage: handle_signal()
+  New 'line' coverage: 10
+  New 'line' coverage: 11
+  New 'line' coverage: 12
+  New 'line' coverage: 9

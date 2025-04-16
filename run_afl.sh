@@ -5,6 +5,9 @@ INPUT_BASE=~/Code-Coverage-Tools-Benchmark/program_inputs
 BINARY_DIR=~/Code-Coverage-Tools-Benchmark/afl_build
 OUTPUT_DIR=~/Code-Coverage-Tools-Benchmark/afl_outputs
 AFL_BIN=~/AFLplusplus/afl-fuzz
+AFL_COV=~/afl-cov/afl-cov
+LCOV_PATH=/usr/bin/lcov
+GENHTML_PATH=/usr/bin/genhtml
 
 # Input directory mapping
 declare -A INPUT_MAP=(
@@ -46,4 +49,27 @@ for binary_file in "$BINARY_DIR"/*_afl; do
     else
         echo "Done: output in $run_output_dir"
     fi
+done
+
+# Run afl-cov on all output directories
+echo "Running afl-cov on all outputs..."
+for binary_file in "$BINARY_DIR"/*_afl; do
+    base_name=$(basename "$binary_file")
+    run_output_dir="${OUTPUT_DIR}/${base_name}_output"
+    binary_full_path="/home/brooke/Code-Coverage-Tools-Benchmark/afl_build/$base_name"
+
+    if [ ! -d "$run_output_dir/default" ]; then
+        echo "Skipping $base_name: no AFL output to analyze."
+        continue
+    fi
+
+    echo "Generating coverage report for $base_name..."
+
+    "$AFL_COV" \
+        -d "$run_output_dir/default/" \
+        --coverage-cmd="$binary_full_path AFL_FILE" \
+        --code-dir "/home/brooke/Code-Coverage-Tools-Benchmark/afl_build/" \
+        --lcov-path "$LCOV_PATH" \
+        --genhtml-path "$GENHTML_PATH" \
+        --overwrite
 done
