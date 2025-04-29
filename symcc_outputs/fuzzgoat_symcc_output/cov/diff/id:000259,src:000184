@@ -1,0 +1,3 @@
+diff id:000258,src:000370 -> id:000259,src:000184
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/loops.c
+  New 'line' coverage: 42

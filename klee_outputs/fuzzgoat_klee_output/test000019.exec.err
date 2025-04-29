@@ -1,0 +1,9 @@
+Error: external call with symbolic argument: sprintf
+File: Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c
+Line: 627
+assembly.ll line: 1672
+State: 442
+Stack: 
+	#000001672 in json_parse_ex(138519873646592, 138537053515776, 511, 0) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:627
+	#100003352 in json_parse(138537053515776, 511) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:1073
+	#200000069 in main() at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:88

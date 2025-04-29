@@ -1,0 +1,3 @@
+diff id:000461,sync:symcc,src:000054,+cov -> id:000462,sync:symcc,src:000061,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+  New 'line' coverage: 718

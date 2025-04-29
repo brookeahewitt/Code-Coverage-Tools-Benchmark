@@ -1,3 +1,0 @@
-afl_cov_pid     : 1074028
-afl_cov_version : 0.6.2
-command_line    : /home/brooke/afl-cov/afl-cov -d /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/loops_afl_output/default/ --coverage-cmd=/home/brooke/Code-Coverage-Tools-Benchmark/afl_build/loops_afl AFL_FILE --code-dir /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/ --lcov-path /usr/bin/lcov --genhtml-path /usr/bin/genhtml --overwrite

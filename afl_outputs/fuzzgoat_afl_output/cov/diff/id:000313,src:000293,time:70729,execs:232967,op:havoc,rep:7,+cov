@@ -1,0 +1,6 @@
+diff id:000312,src:000293,time:70582,execs:232484,op:havoc,rep:7 -> id:000313,src:000293,time:70729,execs:232967,op:havoc,rep:7,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+  New 'line' coverage: 488
+  New 'line' coverage: 489
+  New 'line' coverage: 490
+  New 'line' coverage: 491

@@ -1,0 +1,13 @@
+diff id:000138,src:000000,time:15634,execs:49277,op:havoc,rep:9 -> id:000139,src:000053,time:17349,execs:54914,op:havoc,rep:15,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+  New 'function' coverage: hex_value()
+  New 'line' coverage: 415
+  New 'line' coverage: 419
+  New 'line' coverage: 421
+  New 'line' coverage: 422
+  New 'line' coverage: 427
+  New 'line' coverage: 428
+  New 'line' coverage: 47
+  New 'line' coverage: 49
+  New 'line' coverage: 52
+  New 'line' coverage: 59

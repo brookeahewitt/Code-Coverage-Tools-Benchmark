@@ -1,0 +1,15 @@
+# All functions / lines in this file were executed by at
+# least one AFL test case. See the cov/id-delta-cov file
+# for more information.
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/threads.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/conditional_logic.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/recursion.c
+    function: fibonacci_sequence()
+    function: main()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/main.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/input_validation.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/loops.c

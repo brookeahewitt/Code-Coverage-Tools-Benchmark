@@ -1,0 +1,3 @@
+diff id:000014,src:000000,time:116,execs:304,op:arith8,pos:1,val:+10,+cov -> id:000015,src:000000,time:127,execs:335,op:arith8,pos:1,val:-24,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+  New 'line' coverage: 817

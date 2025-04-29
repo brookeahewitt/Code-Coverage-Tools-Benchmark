@@ -1,0 +1,87 @@
+Successful executions: 496
+Time in successful executions: 16057ms
+Avg time per successful execution: 32ms
+Solver time (successful executions): 1508ms
+Solver time share (successful executions): 9.39% (-> 90.61% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 0
+Time spent on failed executions: 0ms
+--------------------------------------------------------------------------------
+Successful executions: 530
+Time in successful executions: 17979ms
+Avg time per successful execution: 33ms
+Solver time (successful executions): 1725ms
+Solver time share (successful executions): 9.59% (-> 90.41% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 0
+Time spent on failed executions: 0ms
+--------------------------------------------------------------------------------
+Successful executions: 558
+Time in successful executions: 20371ms
+Avg time per successful execution: 36ms
+Solver time (successful executions): 1882ms
+Solver time share (successful executions): 9.24% (-> 90.76% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 0
+Time spent on failed executions: 0ms
+--------------------------------------------------------------------------------
+Successful executions: 566
+Time in successful executions: 20965ms
+Avg time per successful execution: 37ms
+Solver time (successful executions): 1910ms
+Solver time share (successful executions): 9.11% (-> 90.89% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 1
+Time spent on failed executions: 22ms
+Avg time in failed executions: 22ms
+--------------------------------------------------------------------------------
+Successful executions: 569
+Time in successful executions: 21173ms
+Avg time per successful execution: 37ms
+Solver time (successful executions): 1927ms
+Solver time share (successful executions): 9.10% (-> 90.90% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 1
+Time spent on failed executions: 22ms
+Avg time in failed executions: 22ms
+--------------------------------------------------------------------------------
+Successful executions: 569
+Time in successful executions: 21173ms
+Avg time per successful execution: 37ms
+Solver time (successful executions): 1927ms
+Solver time share (successful executions): 9.10% (-> 90.90% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 1
+Time spent on failed executions: 22ms
+Avg time in failed executions: 22ms
+--------------------------------------------------------------------------------
+Successful executions: 570
+Time in successful executions: 21283ms
+Avg time per successful execution: 37ms
+Solver time (successful executions): 1927ms
+Solver time share (successful executions): 9.05% (-> 90.95% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 1
+Time spent on failed executions: 22ms
+Avg time in failed executions: 22ms
+--------------------------------------------------------------------------------
+Successful executions: 601
+Time in successful executions: 28635ms
+Avg time per successful execution: 47ms
+Solver time (successful executions): 2023ms
+Solver time share (successful executions): 7.06% (-> 92.94% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 1
+Time spent on failed executions: 22ms
+Avg time in failed executions: 22ms
+--------------------------------------------------------------------------------
+Successful executions: 640
+Time in successful executions: 54042ms
+Avg time per successful execution: 84ms
+Solver time (successful executions): 2214ms
+Solver time share (successful executions): 4.10% (-> 95.90% in execution)
+Avg solver time per successful execution: 3ms
+Failed executions: 1
+Time spent on failed executions: 22ms
+Avg time in failed executions: 22ms
+--------------------------------------------------------------------------------

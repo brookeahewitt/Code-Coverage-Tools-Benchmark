@@ -1,0 +1,3 @@
+diff id:000000,time:0,execs:0,orig:testcase1 -> id:000001,src:000000,time:2,execs:13,op:havoc,rep:2,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/recursion.c
+  New 'line' coverage: 12

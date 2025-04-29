@@ -1,0 +1,41 @@
+# All functions / lines in this file were never executed by any
+# AFL test case.
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/threads.c
+    function: main()
+    function: printNum()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/conditional_logic.c
+    function: calendar()
+    function: main()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/malloc.c
+    function: main()
+    function: malloc_mem()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+    function: main()
+    function: math_test()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/recursion.c
+File: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+    function: default_alloc()
+    function: default_free()
+    function: hex_value()
+    function: json_alloc()
+    function: json_parse()
+    function: json_parse_ex()
+    function: json_value_free()
+    function: json_value_free_ex()
+    function: new_value()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/main.c
+    function: main()
+    function: print_depth_shift()
+    function: process_array()
+    function: process_object()
+    function: process_value()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
+    function: divideNumbers()
+    function: handle_signal()
+    function: main()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/input_validation.c
+    function: main()
+    function: validate()
+File: /home/brooke/Code-Coverage-Tools-Benchmark/tests/loops.c
+    function: loops()
+    function: main()

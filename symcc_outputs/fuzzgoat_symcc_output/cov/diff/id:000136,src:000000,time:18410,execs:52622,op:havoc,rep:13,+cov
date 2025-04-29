@@ -1,0 +1,32 @@
+diff id:000135,src:000000,time:18397,execs:52581,op:havoc,rep:11 -> id:000136,src:000000,time:18410,execs:52622,op:havoc,rep:13,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+  New 'line' coverage: 1003
+  New 'line' coverage: 1005
+  New 'line' coverage: 1006
+  New 'line' coverage: 1008
+  New 'line' coverage: 119
+  New 'line' coverage: 121
+  New 'line' coverage: 143
+  New 'line' coverage: 144
+  New 'line' coverage: 149
+  New 'line' coverage: 150
+  New 'line' coverage: 226
+  New 'line' coverage: 228
+  New 'line' coverage: 230
+  New 'line' coverage: 231
+  New 'line' coverage: 234
+  New 'line' coverage: 235
+  New 'line' coverage: 992
+  New 'line' coverage: 994
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/main.c
+  New 'function' coverage: process_array()
+  New 'line' coverage: 41
+  New 'line' coverage: 61
+  New 'line' coverage: 64
+  New 'line' coverage: 67
+  New 'line' coverage: 68
+  New 'line' coverage: 69
+  New 'line' coverage: 70
+  New 'line' coverage: 90
+  New 'line' coverage: 91
+  New 'line' coverage: 92

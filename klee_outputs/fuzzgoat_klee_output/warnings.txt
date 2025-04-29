@@ -1,0 +1,14 @@
+KLEE: WARNING: undefined reference to function: __ctype_b_loc
+KLEE: WARNING: undefined reference to function: pow
+KLEE: WARNING: undefined reference to function: printf
+KLEE: WARNING: undefined reference to function: sprintf
+KLEE: WARNING: undefined reference to function: strcpy
+KLEE: WARNING ONCE: calling external: sprintf(138528463581184, 139714814078976, 1, 0) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:647 23
+KLEE: WARNING ONCE: calling external: __ctype_b_loc() at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:762 30
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: printf(139713740337152, 0) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:73 13
+KLEE: WARNING ONCE: silently concretizing (reason: floating point) expression (SExt w64 (Add w32 4294967248
+                    (SExt w32 (Extract w8 0 (SExt w32 (Read w8 3 input_json)))))) to value 5 (Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:908)
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: pow(4621819117588971520, 4607182418800017408) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:923 61
+KLEE: WARNING ONCE: skipping fork (memory cap exceeded)

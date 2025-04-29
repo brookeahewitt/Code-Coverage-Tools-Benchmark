@@ -1,0 +1,20 @@
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/threads.c
+  New 'function' coverage: main()
+  New 'function' coverage: printNum()
+  New 'line' coverage: 10
+  New 'line' coverage: 11
+  New 'line' coverage: 13
+  New 'line' coverage: 16
+  New 'line' coverage: 18
+  New 'line' coverage: 21
+  New 'line' coverage: 28
+  New 'line' coverage: 30
+  New 'line' coverage: 31
+  New 'line' coverage: 36
+  New 'line' coverage: 37
+  New 'line' coverage: 39
+  New 'line' coverage: 40
+  New 'line' coverage: 42
+  New 'line' coverage: 43
+  New 'line' coverage: 9

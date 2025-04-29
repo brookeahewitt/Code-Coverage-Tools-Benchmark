@@ -1,0 +1,113 @@
+
+*** Imported 2 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/afl-secondary/queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 2), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpY8ouXq /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 2.5% (19 of 762 lines)
+  functions..: 6.5% (2 of 31 functions)
+  branches...: no data found
+    lines......: 2.5% (19 of 762 lines)
+    functions..: 6.5% (2 of 31 functions)
+
+    Coverage diff (init) id:000000,time:0,execs:0,orig:testcase1
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+  New 'function' coverage: main()
+  New 'function' coverage: math_test()
+  New 'line' coverage: 10
+  New 'line' coverage: 11
+  New 'line' coverage: 12
+  New 'line' coverage: 13
+  New 'line' coverage: 15
+  New 'line' coverage: 16
+  New 'line' coverage: 22
+  New 'line' coverage: 23
+  New 'line' coverage: 24
+  New 'line' coverage: 25
+  New 'line' coverage: 26
+  New 'line' coverage: 27
+  New 'line' coverage: 29
+  New 'line' coverage: 38
+  New 'line' coverage: 40
+  New 'line' coverage: 41
+  New 'line' coverage: 43
+  New 'line' coverage: 44
+  New 'line' coverage: 8
+
+
+
+++++++ BEGIN - first exec output for CMD: /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/math_ops_afl /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/afl-secondary/queue/id:000000,time:0,execs:0,orig:testcase1
+    Integer Addition: 1 + 1 = 2
+    Integer Multiplication: 1 * 1 = 1
+    Integer Division: 1 / 1 = 1
+    Floating-Point Addition: 0.000000 + 0.000000 = 0.000000
+    Floating-Point Multiplication: 0.000000 * 0.000000 = 0.000000
+    Sine(0.000000) = 0.000000
+++++++ END
+
+[+] AFL test case: id:000001,sync:afl-master,src:000001,+cov (1 / 2), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmphF4r0D /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 2.6% (20 of 762 lines)
+  functions..: 6.5% (2 of 31 functions)
+  branches...: no data found
+    lines......: 2.6% (20 of 762 lines)
+    functions..: 6.5% (2 of 31 functions)
+
+    Coverage diff id:000000,time:0,execs:0,orig:testcase1 id:000001,sync:afl-master,src:000001,+cov
+diff id:000000,time:0,execs:0,orig:testcase1 -> id:000001,sync:afl-master,src:000001,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+  New 'line' coverage: 18
+
+
+*** Imported 2 new test cases from: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/afl-master/queue
+
+[+] AFL test case: id:000000,time:0,execs:0,orig:testcase1 (0 / 4), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpLviuvF /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 2.6% (20 of 762 lines)
+  functions..: 6.5% (2 of 31 functions)
+  branches...: no data found
+    lines......: 2.6% (20 of 762 lines)
+    functions..: 6.5% (2 of 31 functions)
+[+] AFL test case: id:000001,src:000000,time:86,execs:303,op:havoc,rep:13,+cov (1 / 4), cycle: 0
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpERdIL0 /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 2.6% (20 of 762 lines)
+  functions..: 6.5% (2 of 31 functions)
+  branches...: no data found
+    lines......: 2.6% (20 of 762 lines)
+    functions..: 6.5% (2 of 31 functions)
+[+] Processed 4 / 4 test cases.
+
+[+] Final zero coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/zero-cov
+[+] Final positive coverage report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/pos-cov
+    Non-zero exit status '25' for CMD: /usr/bin/lcov --no-checksum -r /tmp/tmpnG2o9J /usr/include/\*  --output-file /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+lcov: ERROR: 'exclude' pattern '/usr/include/*' is unused.
+	(use "lcov --ignore-errors unused ..." to bypass this error)
+Removed 0 files
+Writing data to /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/lcov/trace.lcov_info_final
+Summary coverage rate:
+  lines......: 2.6% (20 of 762 lines)
+  functions..: 6.5% (2 of 31 functions)
+  branches...: no data found
+    lines......: 2.6% (20 of 762 lines)
+    functions..: 6.5% (2 of 31 functions)
+[+] Final lcov web report: /home/brooke/Code-Coverage-Tools-Benchmark/symcc_outputs/math_ops_symcc_output/cov/web/index.html

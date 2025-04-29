@@ -1,0 +1,3 @@
+diff id:000000,time:0,execs:0,orig:testcase1 -> id:000001,sync:afl-master,src:000001,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+  New 'line' coverage: 18

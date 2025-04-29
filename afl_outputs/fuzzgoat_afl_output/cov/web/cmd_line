@@ -1,0 +1,1 @@
+genhtml --output-directory /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/fuzzgoat_afl_output/cov/web /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/fuzzgoat_afl_output/cov/lcov/trace.lcov_info_final

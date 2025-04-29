@@ -1,0 +1,23 @@
+/home/brooke/klee/build/bin/klee --only-output-states-covering-new --output-dir=/home/brooke/Code-Coverage-Tools-Benchmark/klee_outputs/fuzzgoat_klee_output /home/brooke/Code-Coverage-Tools-Benchmark/klee_build/fuzzgoat_klee.bc
+PID: 27492
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2025-04-29 16:14:47
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2025-04-29 16:24:59
+Elapsed: 00:10:12
+KLEE: done: explored paths = 184546
+KLEE: done: avg. constructs per query = 47
+KLEE: done: total queries = 27996
+KLEE: done: valid queries = 26019
+KLEE: done: invalid queries = 1977
+KLEE: done: query cex = 27996
+
+KLEE: done: total instructions = 32583922
+KLEE: done: completed paths = 73520
+KLEE: done: partially completed paths = 111026
+KLEE: done: generated tests = 109

@@ -1,0 +1,13 @@
+Error: memory error: use after free
+File: Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c
+Line: 643
+assembly.ll line: 1709
+State: 803
+Stack: 
+	#000001709 in json_parse_ex(138519873646592, 138537053515776, 511, 0) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:643
+	#100003352 in json_parse(138537053515776, 511) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:1073
+	#200000069 in main() at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:88
+Info: 
+	address: 138988025081864
+	next: object at 138473702748160 of size 1
+		MO410[1] allocated at json_parse_ex():  %24 = alloca i8, align 1

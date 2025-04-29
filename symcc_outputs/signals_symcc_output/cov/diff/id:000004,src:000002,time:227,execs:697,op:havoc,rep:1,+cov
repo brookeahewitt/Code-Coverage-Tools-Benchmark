@@ -1,0 +1,3 @@
+diff id:000003,src:000000,time:11,execs:34,op:flip1,pos:0,+cov -> id:000004,src:000002,time:227,execs:697,op:havoc,rep:1,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/signals.c
+  New 'line' coverage: 24

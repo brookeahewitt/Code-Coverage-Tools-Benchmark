@@ -1,18 +1,18 @@
-start_time        : 1744761739
-last_update       : 1744762295
-run_time          : 555
-fuzzer_pid        : 1655568
-cycles_done       : 4628
-cycles_wo_finds   : 4627
-time_wo_finds     : 555
-fuzz_time         : 555
+start_time        : 1744836274
+last_update       : 1744836328
+run_time          : 54
+fuzzer_pid        : 1378438
+cycles_done       : 453
+cycles_wo_finds   : 452
+time_wo_finds     : 54
+fuzz_time         : 54
 calibration_time  : 0
 cmplog_time       : 0
 sync_time         : 0
 trim_time         : 0
-execs_done        : 1851452
-execs_per_sec     : 3331.51
-execs_ps_last_min : 3380.26
+execs_done        : 181622
+execs_per_sec     : 3330.56
+execs_ps_last_min : 0.00
 corpus_count      : 2
 corpus_favored    : 2
 corpus_found      : 1
@@ -27,10 +27,10 @@ bitmap_cvg        : 0.00%
 saved_crashes     : 0
 saved_hangs       : 0
 total_tmout       : 0
-last_find         : 1744761739
+last_find         : 1744836274
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 1851452
+execs_since_crash : 181622
 exec_timeout      : 20
 slowest_exec_ms   : 0
 peak_rss_mb       : 3
@@ -40,10 +40,10 @@ total_edges       : 65536
 var_byte_count    : 0
 havoc_expansion   : 5
 auto_dict_entries : 0
-testcache_size    : 11
+testcache_size    : 10
 testcache_count   : 2
 testcache_evict   : 0
 afl_banner        : ...-Tools-Benchmark/afl_build/math_ops_afl
 afl_version       : ++4.32a
 target_mode       : shmem_testcase default
-command_line      : /home/brooke/AFLplusplus/afl-fuzz -i /home/brooke/Code-Coverage-Tools-Benchmark/program_inputs/three_inputs -o /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/math_ops_afl_output -- /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/math_ops_afl @@
+command_line      : /home/brooke/AFLplusplus/afl-fuzz -i /home/brooke/Code-Coverage-Tools-Benchmark/program_inputs/three_inputs/ -o /home/brooke/Code-Coverage-Tools-Benchmark/afl_outputs/math_ops_afl_output -- /home/brooke/Code-Coverage-Tools-Benchmark/afl_build/math_ops_afl @@

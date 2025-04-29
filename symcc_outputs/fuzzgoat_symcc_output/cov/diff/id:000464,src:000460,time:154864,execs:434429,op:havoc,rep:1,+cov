@@ -1,0 +1,5 @@
+diff id:000463,sync:afl-secondary,src:000468 -> id:000464,src:000460,time:154864,execs:434429,op:havoc,rep:1,+cov
+Src file: /home/brooke/Code-Coverage-Tools-Benchmark/fuzzgoat/fuzzgoat.c
+  New 'line' coverage: 754
+  New 'line' coverage: 757
+  New 'line' coverage: 758

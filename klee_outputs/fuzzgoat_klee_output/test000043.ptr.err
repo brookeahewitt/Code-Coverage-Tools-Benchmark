@@ -1,0 +1,13 @@
+Error: memory error: null page access
+File: Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c
+Line: 298
+assembly.ll line: 502
+State: 4824
+Stack: 
+	#000000502 in json_value_free_ex(138517726162944, 138988025081856) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:298
+	#100003368 in json_value_free(138988025081856) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:1080
+	#200000079 in main() at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:92
+Info: 
+	address: 0
+	next: object at 138483366424576 of size 4
+		MO71[4] allocated at main():  %2 = alloca i32, align 4

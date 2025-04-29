@@ -1,0 +1,14 @@
+Error: memory error: invalid pointer: free
+File: Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c
+Line: 85
+assembly.ll line: 2885
+State: 2526
+Stack: 
+	#000002885 in default_free(138781866651647, 0) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:85
+	#100000519 in json_value_free_ex(138517726162944, 138988025081856) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:302
+	#200003368 in json_value_free(138988025081856) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/fuzzgoat.c:1080
+	#300000079 in main() at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:92
+Info: 
+	address: 138781866651647
+	next: object at 138483366424576 of size 4
+		MO71[4] allocated at main():  %2 = alloca i32, align 4

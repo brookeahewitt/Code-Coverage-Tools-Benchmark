@@ -1,0 +1,23 @@
+diff (init) -> id:000000,time:0,execs:0,orig:testcase1
+New src file: /home/brooke/Code-Coverage-Tools-Benchmark/tests/math_ops.c
+  New 'function' coverage: main()
+  New 'function' coverage: math_test()
+  New 'line' coverage: 10
+  New 'line' coverage: 11
+  New 'line' coverage: 12
+  New 'line' coverage: 13
+  New 'line' coverage: 15
+  New 'line' coverage: 16
+  New 'line' coverage: 22
+  New 'line' coverage: 23
+  New 'line' coverage: 24
+  New 'line' coverage: 25
+  New 'line' coverage: 26
+  New 'line' coverage: 27
+  New 'line' coverage: 29
+  New 'line' coverage: 38
+  New 'line' coverage: 40
+  New 'line' coverage: 41
+  New 'line' coverage: 43
+  New 'line' coverage: 44
+  New 'line' coverage: 8

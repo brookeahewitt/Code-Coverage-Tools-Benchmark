@@ -1,0 +1,8 @@
+Error: external call with symbolic argument: printf
+File: Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c
+Line: 63
+assembly.ll line: 158
+State: 18024
+Stack: 
+	#000000158 in process_value(138988025081856, 0) at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:63
+	#100000077 in main() at Code-Coverage-Tools-Benchmark/fuzzgoat_klee/main.c:91
